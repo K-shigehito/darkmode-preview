@@ -1,0 +1,24 @@
+:root {
+  --cBackground: #fedfe1; /* 桜色 */
+  --cText: #656765; /* 鈍色 */
+}
+
+/* OSの設定がダークモード時のスタイル */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cBackground: #64363c; /* 桑染 */
+    --cText: #fcfaf2; /* 白練 */
+  }
+}
+
+.test {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: var(--cBackground);
+}
+.test__text {
+  color: var(--cText);
+  text-align: center;
+  line-height: 100px;
+}
