@@ -24,7 +24,7 @@
 /* 切り替えスイッチ */
 .onoffswitch {
   position: relative;
-  width: 80px;
+  width: 90px;
   margin: 0 auto;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -63,27 +63,27 @@
   box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-  content: "Light";
-  padding-left: 10px;
-  background-color: #fbe251;
-  color: #91989f;
-}
-.onoffswitch-inner:after {
   content: "Dark";
-  padding-right: 10px;
+  padding-left: 10px;
   background-color: #43341b;
   color: #fbe251;
+}
+.onoffswitch-inner:after {
+  content: "Light";
+  padding-right: 10px;
+  background-color: #fbe251;
+  color: #91989f;
   text-align: right;
 }
 .onoffswitch-switch {
   display: block;
-  width: 17px;
-  margin: 6.5px;
+  width: 18px;
+  margin: 6px;
   background: #91989f;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 46px;
+  right: 56px;
   border: 2px solid #999999;
   border-radius: 20px;
   transition: all 0.3s ease-in 0s;
